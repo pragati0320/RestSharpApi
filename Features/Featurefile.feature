@@ -2,8 +2,8 @@
 	Simple calculator for adding two numbers
 
 @mytag
-Scenario: Add two numbers
-	Given the first number is 50
-	And the second number is 70
-	When the two numbers are added
-	Then the result should be 120
+Scenario: Get API response using given endpoint
+	Given I have an endpoint / /
+	And I have base url https://ddd
+	When I call GET Mthod api
+	Then I get API response in json format
