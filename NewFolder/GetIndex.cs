@@ -30,6 +30,10 @@ namespace RestSharp_Api
 
             return restRequest;
         }
-         
+
+        private static RestRequest Addheader(string v1, string v2)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
